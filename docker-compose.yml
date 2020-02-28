@@ -5,4 +5,4 @@ services:
     hostname: byungjae
     restart: always
     ports:
-      - "5000:80"
+      - "2000:80"
