@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "century gothic", sans-serif;
+}
+
+body {
+}
+
+.fullscreen {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100vh;
+  z-index: 10;
+}
+
+/* navigation bar */
+#nav-bar {
+  position: sticky;
+  height: 60px;
+  top: 0;
+  z-index: 5;
+}
+
+
+.navbar {
+  background: url("images/bg2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding: 0 !important;
+  font-family: "century gothic", sans-serif;
+  line-height: normal;
+}
+
+.navbar-brand img {
+  height: 40px;
+  padding: 4px;
+  /*filter: invert(1);*/
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+/ / 시계방향으로 적용
+}
+
+.navbar-nav li a {
+  color: white !important;
+  font-weight: 600;
+  float: right;
+}
+
+#nav-bar.navbar-toggler {
+  outline: red !important;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 30px !important;
+}
+
+
+/* banner */
+#banner {
+  z-index: 10;
+  top: -60px;
+  position: relative;
+  /*background-color: ghostwhite;*/
+  background: url("images/bg2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.banner-title {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  text-align: center;
+}
+
+.banner-title h2 {
+  font-family: Origram, sans-serif;
+  color: white;
+  font-size: 72px;
+  letter-spacing: 2px;
+  /*opacity: 80%;*/
+}
+
+.typing {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "JetBrains Mono", monospace;
+  color: #a9b7c6;
+  /*background-color: black;*/
+}
+
+.scroll-down {
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  bottom: 0;
+}
+
+.arrow {
+  background: url("images/arrow.png");
+  position: absolute;
+  font-size: 32px !important;
+  /*height: 32px;*/
+  /*width: 32px;*/
+  left: 50%;
+  color: white;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, to {
+    filter: alpha(opacity=40);
+    opacity: .4;
+    top: 0
+  }
+  50% {
+    filter: none;
+    opacity: 1;
+    top: -16px
+  }
+}
+
+/* intro */
+#intro {
+  padding: 140px 0 70px;
+  background-color: white;
+}
+
+
+.about-us-btn {
+  width: 24px;
+  margin: 10px 10px 10px 0;
+}
+
+#intro a {
+  color: black;
+  text-decoration: none;
+}
+
+.intro {
+  /*transform: rotateY(180deg);*/
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* lectures */
+#lectures {
+  background-color: #f8f8f8;
+}
+
+#lectures h1 {
+  margin-top: 20px;
+}
+
+#lectures .row {
+  padding: 50px 0 150px;
+}
+
+.layer-lectures {
+  padding: 0 !important;
+  position: relative;
+  width: 100% !important;
+}
+
+
+/*seminar*/
+#seminar {
+  background-color: white;
+}
+
+#seminar a {
+  color: black;
+  text-decoration: none;
+}
+
+
+#seminar .container {
+  padding: 80px 0 100px;
+}
+
+.seminar {
+  /*transform: rotateY(180deg);*/
+  width: 100%;
+  margin-top: 20px;
+}
+
+.carousel .carousel-item {
+  transition-duration: 0.5s;
+}
+
+.layer-seminar {
+  padding: 0 !important;
+  position: relative;
+  width: 100% !important;
+  transform: rotateX(180deg);
+}
+
+/* project */
+#project {
+  background-color: #f8f8f8;
+}
+
+.project {
+  /*transform: rotateY(180deg);*/
+  width: 100%;
+  margin-top: 20px;
+}
+
+#project .row {
+  padding: 50px 0 150px;
+}
+
+.layer-project {
+  padding: 0 !important;
+  position: relative;
+  width: 100% !important;
+}
+
+/* contact */
+#contact {
+  /*margin: 0 !important;*/
+  /*padding: 0 !important;*/
+  height: 400px;
+  background-color: #142326;
+  color :white;
+}
+
+#contact .contact-map {
+  float: left;
+  width: 100%;
+}
+
+/*#contact .contact-text {*/
+/*  float: left;*/
+/*  width: 50%;*/
+/*  padding: 50px;*/
+/*  !*overflow: hidden;*!*/
+/*  text-overflow: ellipsis;*/
+/*  max-height: 350px;*/
+/*}*/
+
+#contact  a {
+  color: white;
+  text-decoration: none;
+}
+
+/* map */
+.overlay_info {
+  border-radius: 6px;
+  margin-bottom: 12px;
+  float: left;
+  position: relative;
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #ddd;
+  background-color: #fff;
+}
+
+.overlay_info:nth-of-type(n) {
+  border: 0;
+  box-shadow: 0 1px 2px #888;
+}
+
+.overlay_info a {
+  display: block;
+  background: #142326;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 36px 12px 14px;
+  font-size: 14px;
+  border-radius: 6px 6px 0 0
+}
+
+.overlay_info .desc {
+  padding: 14px;
+  position: relative;
+  min-width: 190px;
+  height: 56px
+}
+
+.overlay_info img {
+  vertical-align: top;
+}
+
+.overlay_info .address {
+  font-size: 12px;
+  color: #333;
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  white-space: normal
+}
+
+.overlay_info:after {
+  content: '';
+  position: absolute;
+  margin-left: -11px;
+  left: 50%;
+  bottom: -12px;
+  width: 22px;
+  height: 12px;
+  background: url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png) no-repeat 0 bottom;
+}
+
+
+/*footer*/
+#footer {
+  position: relative;
+  background-color: #142326;
+  color: white;
+  padding: 60px 0 40px;
+}
+
+#footer .container a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-space {
+  margin-right: 10px !important;
+}
+
+#footer .col-md-3 {
+  margin-bottom: 20px;
+}
+
+.bottom {
+  color: white;
+  width: 100%;
+  padding: 15px;
+  background-color: #080C0D;
+}
+
+

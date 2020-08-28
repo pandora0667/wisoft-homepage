@@ -1,415 +1,517 @@
 <!DOCTYPE html>
-
 <html lang="ko-KR" class="no-js">
-    <!-- BEGIN HEAD -->
-    <head>
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159351873-1"></script>
+
+<head>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159351873-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-159351873-1');
+    </script>
+    
+    <title>WiSoft.io</title>
+    <meta content="" name="wisoft" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- canonical -->
+    <link rel="canonical" href="https://wisoft.io">
+
+    <!-- SEO -->
+    <meta name="title" content="WISOFT" class="meta-title">
+    <meta name="description" content="당신의 꿈이 현실이 되는 한밭대학교 무선통신소프트웨어 연구실" class="meta-desc">
+    <meta name="keywords" content="한밭대학교, wisoft, Wisoft, 연구실, 소프트웨어, 임베디드, JAVA, 자료구조, 네트워크, softwate, 소프트웨어, 와이소프트, 무선통신">
+    <meta name="apple-mobile-web-app-title" content="WISOFT">
+    <link rel="image_src" href="./images/wisoft.png">
+    <!-- //SEO -->
+
+    <!-- SNS Share ======================================= -->
+    <!-- FB -->
+    <meta property="og:site_name" content="WISOFT" class="meta-title">
+    <meta property="og:title" content="SANDBOX" class="meta-title">
+    <meta property="og:description" content="당신의 꿈이 현실이 되는 한밭대학교 무선통신소프트웨어 연구실" class="meta-desc">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="KR">
+    <meta property="og:url" content="https://wisoft.io">
+    <meta property="og:image" content="images/wisoft.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- TW -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="WISOFT" class="meta-title">
+    <meta name="twitter:description" content="당신의 꿈이 현실이 되는 한밭대학교 무선통신소프트웨어 연구실" class="meta-desc">
+    <meta name="twitter:url" content="https://wisoft.io">
+    <meta name="twitter:image" content="./images/wisoft.png">
+    <!-- //SNS Share ======================================= -->
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/ws-logo.png" />
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c2669679b2ebc83443054332e946246d"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--        <span class="navbar-toggler-icon"></span>-->
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lectures">Lectures</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seminar">Seminar</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Project</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--Banner-->
+    <section id="banner">
+        <div class="container fullscreen">
+            <div class="banner-title">
+                <h2>WiSoft</h2>
+                <div class="typing">
+                    <p>
+                        <span class="typed-word"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <i class="fal fa-angle-down arrow"></i>
+            </div>
+        </div>
         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-159351873-1');
+            const typed = new Typed('.typed-word', {
+                strings: [
+                    "System.<i><span style='color: #9876AA'>out</i></span>.println(<span style='color: #6A8759'>\"Welcome.\"</span>)<span style='color: #C67531'>;</span>",
+                    "<i>println</i>(<span style='color: #6A8759'>\"Welcome to WiSoft.\"</span>)",
+                    "<span style='color: #9876AA'><b><i>console</i></b></span>.<span style='color: #FFC66D'>log</span>(<span style='color: #6A8759'>'We are WiSoft.'</span>)"
+                ],
+                typeSpeed: 60,
+                backSpeed: 30,
+                loop: true
+            });
         </script>
-        
-        <meta charset="utf-8"/>
-        <title>WISOFT - 무선통신소프트웨어연구실</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="wisoft"/>
-        <meta name="description" content="한밭대학교 무선통신소프트웨어 연구실 WIsoft-Lab" class="meta-desc">
-        <meta name="keywords" content="한밭대학교, wisoft, Wisoft, 연구실, 소프트웨어, 임베디드, JAVA, 자료구조, 네트워크, softwate, 소프트웨어, 와이소프트, 무선통신">
+    </section>
+    <!--Intro-->
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1 style="font-weight: 800">HBNU WiSoft.io</h1>
+                    <p>한밭대학교 무선통신 소프트웨어 연구실은 차세대 무선 통신 시스템을 위한 소프트웨어 연구를 목표로 연구에 매진하고 있습니다. 우리 연구실은 이론 연구뿐만 아니라 실무적인 능력을
+                        향상하기 위해 소프트웨어 구현 기술에도 많은 노력을 기울이며 연구를 진행하고 있습니다.</p>
+                    <h4>연구 분야</h4>
+                    <ul>
+                        <li>Database</li>
+                        <li>Software Development</li>
+                        <li>Wireless Communication</li>
+                        <li>Etc.</li>
+                    </ul>
+                    <a href="https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                        <img class="about-us-btn" src="images/about-us.svg">
+                        About Us
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <img class="intro" src="images/intro.svg">
+                </div>
+            </div>
+        </div>
 
+    </section>
 
-        <!-- GLOBAL MANDATORY STYLES -->
-        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
-        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
-        <!-- PAGE LEVEL PLUGIN STYLES -->
-        <link href="css/animate.css" rel="stylesheet">
-        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-
-        <!-- THEME STYLES -->
-        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
-
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="logo.png"/>
-    </head>
-    <!-- END HEAD -->
-
-    <!-- BODY -->
-    <body>
-        <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top">
-            <!-- Navbar -->
-            <nav class="navbar" role="navigation">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="menu-container">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="toggle-icon"></span>
-                        </button>
-
-                        <!-- Logo -->
-                        <div class="logo">
-                            <a class="logo-wrap" href="index.html">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logo.png" alt="Asentus Logo">
-                            </a>
-                        </div>
-                        <!-- End Logo -->
+    <!--Lecture-->
+    <section id="lectures">
+        <img class="layer-lectures" src="images/layer.png" alt="">
+        <div class="container">
+            <h1 style="font-weight: 700; padding-top: 50px">Lectures</h1>
+            <div class="row">
+                <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-ds-tab" data-toggle="pill" href="#v-pills-ds" role="tab" aria-controls="v-pills-ds" aria-selected="true">Data Structure</a>
+                        <a class="nav-link" id="v-pills-os-tab" data-toggle="pill" href="#v-pills-os" role="tab" aria-controls="v-pills-os" aria-selected="false">Operating System</a>
+                        <a class="nav-link" id="v-pills-db-tab" data-toggle="pill" href="#v-pills-db" role="tab" aria-controls="v-pills-db" aria-selected="false">Database</a>
+                        <a class="nav-link" id="v-pills-cp-tab" data-toggle="pill" href="#v-pills-cp" role="tab" aria-controls="v-pills-cp" aria-selected="false">Communication Protocols</a>
+                        <a class="nav-link" id="v-pills-hr-tab" data-toggle="pill" href="#v-pills-hr" role="tab" aria-controls="v-pills-hr" aria-selected="false">Smart Human Life Design</a>
+                        <a class="nav-link" id="v-pills-sp-tab" data-toggle="pill" href="#v-pills-sp" role="tab" aria-controls="v-pills-sp" aria-selected="false">Multidisciplinary Capstone Design</a>
                     </div>
+                </div>
+                <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-ds" role="tabpanel" aria-labelledby="v-pills-ds-tab">
+                            <h4>자료구조</h4>
+                            <p>자료구조 개념과 자료구조를 메모리에 표현하는 방법과 이와 관련된 알고리즘에 대한 이론 및 응용문제들을 다 룬다. 순서리스트, 연결 리스트의 C 언어를 이용한 구현 방법을 익히며, 스택,
+                                큐, 트리, 그래프 등의 대표적인 자료구조를 소개하고 이들의 활용 분야를 학습한다. 그리고, 실질적인 활용을 위해 자바, C++ 등 객체지향 언 어에서의 자료구조 활용 사례를 살펴본다.
+                            </p>
+                            <h5>교육목표</h5>
+                            <ul>
+                                <li>C 프로그램 작성 및 분석 방법의 이해</li>
+                                <li>자료구조의 정의와 응용분야</li>
+                                <li>자료구조를 프로그램으로 구현하는 능력 배양</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-os" role="tabpanel" aria-labelledby="v-pills-os-tab">
+                            <h4>운영체제</h4>
+                            <p>운영 체제(運營 體制, 문화어: 조작 체계) 또는 오퍼레이팅 시스템(영어: operating system, OS)은 시스템 하드웨어를 관리할 뿐 아니라 응용 소프트웨어를 실행하기 위하여
+                                하드웨어 추상화 플랫폼과 공통 시스템 서비스를 제공하는 시스템 소프트웨어이다. 최근에는 가상화 기술의 발전에 힘입어 실제 하드웨어가 아닌 하이퍼바이저 위에서 실행되기도 한다.</p>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-db" role="tabpanel" aria-labelledby="v-pills-db-tab">
+                            <h4>데이터베이스</h4>
+                            <p>데이터베이스 시스템에 대한 개념을 학습하고, 실용적인 SQL 활용 능력을 배영한다. 활용 가능한 사례를 활용 하여 다양한 SQL 문장 습득을 위한 실습을 진행한다. 간단한 데이터베이스 설계
+                                및 데이터베이스 프로그래밍 능력을 배양함으로써 데이터베이스 시스템의 활용 능력을 배양한다.</p>
+                            <h5>교육목표</h5>
+                            <ul>
+                                <li>데이터베이스 개념 이해</li>
+                                <li>데이터베이스 관리 시스템 이해</li>
+                                <li>데이터 모델과 정규형의 이해를 통한 데이터베이스 설계 능력 향상</li>
+                                <li>SQL 활용 능력 향상</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-cp" role="tabpanel" aria-labelledby="v-pills-cp-tab">
+                            <h4>이동통신 프로토콜</h4>
+                            <p>대표적인 표준을 선정하여 프로토콜의 동작과정을 상세히 학습한다.
+                                4차산업혁명과 사물인터넷 등과 관련하여 응용 프로토콜을 이해하고 이를 활용하는 방법을 학습한다.</p>
+                            <h5>교육목표</h5>
+                            <ul>
+                                <li>이동(무선) 통신 프로토콜의 이해</li>
+                                <li>통신 프로토콜 분석능력 배양</li>
+                                <li>최신 이동(무선)통신 프로토콜 동향의 이해</li>
+                                <li>새로운 프로토콜을 설계할 수 있는 능력의 배양</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-hr" role="tabpanel" aria-labelledby="v-pills-hr-tab">
+                            <h4>스마트 휴먼라이프 디자인</h4>
+                            <p>휴먼라이프 서비스디자인은 디자인 씽킹 프로세스 통한 서비스 디자인 방법론, 휴먼라이프 디자인 방법론 습 득을 하며, 스마트환경 내 데이터의 중요성과 역할 및 구조를 이해한다.
+                                휴먼라이프디자인 관련 데이터의 특성 및 수집방법, 분석방법, 표현방법을 익히고, 디자인 과정에서 활용할 수 있는 도구를 학습한다</p>
+                            <h5>교육목표</h5>
+                            <ul>
+                                <li>디자인 씽킹 프로세스 통한 서비스 디자인 방법론, 휴먼라이프 디자인 방법론 습득</li>
+                                <li>스마트환경 내 데이터의 중요성과 역할 및 구조 이해</li>
+                                <li>휴먼라이프디자인 관련 데이터의 특성 및 수집방법, 분석방법, 표현방법 습득</li>
+                                <li>디자인을 위한 도구 학습</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-sp" role="tabpanel" aria-labelledby="v-pills-sp-tab">
+                            <h4>다학제간 캡스톤 디자인</h4>
+                            <ul>
+                                <li>브레인스토밍을 통한 주제선정 및 선행 연구 결과 고찰</li>
+                                <li>오픈소스 하드웨어(아두이노, 라즈베리파이 등), 센서, 엑추에이터 구동 학습</li>
+                                <li>선정 주제에 따른 이론 학습</li>
+                                <li>선정 주제에 따른 프로젝트 진행</li>
+                            </ul>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse nav-collapse">
-                        <div class="menu-container">
-                            <ul class="navbar-nav navbar-nav-right">
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="about.html">About</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="service.html">Service</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>
+                            <h5>교육목표</h5>
+                            <ul>
+                                <li>선정 주제에 따른 프로젝트 진행</li>
+                                <li>센서 및 엑추에이터 분석 및 활용 능력 배양</li>
+                                <li>기초 프로그래밍 능력 배양</li>
+                                <li>팀 프로젝트 진행에 따른 팀워크 능력 배양</li>
                             </ul>
                         </div>
                     </div>
-                    <!-- End Navbar Collapse -->
-                </div>
-            </nav>
-            <!-- Navbar -->
-        </header>
-
-        <!--========== SLIDER ==========-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <div class="container">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                </ol>
-            </div>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h1 class="carousel-title">Dreams Come True</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="img-responsive" src="img/1920x1080/02.jpg" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h2 class="carousel-title">Wisoft Lab</h2>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        <!--========== SLIDER ==========-->
-        
-        <!-- Promo Section -->
-        <div class="promo-section overflow-h">
-            <div class="container">
-                <div class="clearfix">
-                    <div class="ver-center">
-                        <div class="ver-center-aligned">
-                            <div class="promo-section-col">
-                                <h2>What is wisoft? </h2>
-                                <p>한밭대학교 무선통신소프트웨어 연구실은 차세대 무선 통신 시스템을 위한 소프트웨어 연구를 목표로 연구에 매진하고 있습니다. 우리 연구실은 이론적인 연구뿐만 아니라 실무적인 능력을 향상하기 위해 소프트웨어 구현 기술에도 많은 가중치를 두고 연구를 진행하고 있습니다. (Wireless Software Laboratory:Wisoft Lab.)<br>
-                                우리 연구실의 주요 연구 분야는 IoT 환경의 소프트웨어 기술과 데이터 분야의 요소 기술, 그리고 다양한 데이터의 분석/통계 연구입니다. 우리 연구실은 이론적인 연구뿐만 아니라 실무 능력을 향상하기 위한 연구를 병행하여 진행하고 있습니다..</p>
-                                <p>우수한 역량을 갖춘 교수님과 선배들을 통해 자신의 진로를 명확하게 파악할 수 있으며, 진로에 맞춤화된 개선방안을 끊임없이 시도합니다. 또한 체계적인 연구를 위한 인프라가 구축되어 있어 공부와 연구에 집중할 수 있는 시스템을 가지고 있습니다. </p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="promo-section-img-right">
-                <img class="img-responsive" src="img/640x380/01.jpg" alt="Content Image">
-            </div>
-        </div>
-        <!-- End Promo Section -->
-
-        <!-- Testimonials -->
-        <div class="content-lg container">
+        <img class="layer-seminar" src="images/layer.png" alt="">
+    </section>
+    <!--Seminar-->
+    <section id="seminar">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-9">
-                    <h2>무엇을 공부하나요?</h2>
+                <div class="col-md-4">
+                    <img class="seminar" src="images/seminar.svg">
+                </div>
+                <div class="col-md-7 offset-md-1">
+                    <h1 style="font-weight: 700">Seminar</h1>
+                    <p>교수님과 선배 연구원들의 지도 아래 연구실 내에서 진행되는 세미나입니다.</p>
+                    <!--Carousel Wrapper-->
+                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                        <!--Slides-->
+                        <div class="carousel-inner" role="listbox">
+                            <!--First slide-->
+                            <div class="carousel-item active">
+                                <div class="col-md-4" style="float:left">
+                                    <div class="card mb-2">
+                                        <div class="card mb-2" style="border-bottom: #dddddd solid 1px; align-items: center">
+                                            <img class="card-img-top" style="max-height: 100%; width: 120px; height: 150px" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0f1efb49-5a3e-4954-ae4a-eb8929d518f3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200827T145652Z&X-Amz-Expires=86400&X-Amz-Signature=4ea27b5aaa9a6c0c349b703eea3b909e721db764e6346313df959833848eed35&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body" style="padding: 8px 12px">
+                                            <h5 class="card-title" style="margin: 0 !important;">Database</h5>
+                                            <p class="card-text" style="height: 35px">
+                                                <a href="https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                                    <img class="about-us-btn" src="images/about-us.svg">
+                                                    See more
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                    <!-- Swiper Testimonials -->
-                    <div class="swiper-slider swiper-testimonials">
-                        <!-- Swiper Wrapper -->
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <blockquote class="blockquote">
-                                    <div class="margin-b-20">
-                                        각각의 학생들마다 장점을 들어내는 분야가 각각 다르지만, 소프트웨어 공학에서 필수적으로 알아야하는 기본지식부터 시작하게 됩니다.
+                                <div class="col-md-4" style="float:left">
+                                    <div class="card mb-2">
+                                        <div class="card mb-2" style="border-bottom: #dddddd solid 1px; align-items: center">
+                                            <img class="card-img-top" style="max-height: 100%; width: 120px; height: 150px" src="https://www.hanbit.co.kr/data/books/B9860513241_l.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body" style="padding: 8px 12px">
+                                            <h5 class="card-title" style="margin: 0 !important;">Design Patterns</h5>
+                                            <p class="card-text" style="height: 35px">
+                                                <a href="https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                                    <img class="about-us-btn" src="images/about-us.svg">
+                                                    See more
+                                                </a>
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div class="margin-b-20">
-                                        기본적으로 자료구조, 알고리즘, 자바, MVC, 운영체제, 네트워크 등 기본 커리큘럼 과정을 진행합니다. 
+                                </div>
+
+                                <div class="col-md-4" style="float:left">
+                                    <div class="card mb-2">
+                                        <div class="card mb-2" style="border-bottom: #dddddd solid 1px; align-items: center">
+                                            <img class="card-img-top" style="max-height: 100%; width: 120px; height: 150px" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/18474e21-ef52-4499-bc64-b975471e6cd4/_2020-08-04__11.05.20.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200827T152646Z&X-Amz-Expires=86400&X-Amz-Signature=252507220f37498dc1bb17d81e2575ef1cb48906609b14e36efd329f7b427a01&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2020-08-04__11.05.20.png%22" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body" style="padding: 8px 12px">
+                                            <h5 class="card-title" style="margin: 0 !important;">HTTP & Network</h5>
+                                            <p class="card-text" style="height: 35px">
+                                                <a href="https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                                    <img class="about-us-btn" src="images/about-us.svg">
+                                                    See more
+                                                </a>
+                                            </p>
+                                        </div>
                                     </div>
-                                  
-                                </blockquote>
+                                </div>
+
                             </div>
-                            <div class="swiper-slide">
-                                <blockquote class="blockquote">
-                                    <div class="margin-b-20">
-                                        아무것도 모르더라도 무서워 하지마세요. 우리는 학생들이 모든것을 알고있다고 시작하지 않습니다.
+                            <!--/.First slide-->
+
+                            <!--Second slide-->
+                            <div class="carousel-item">
+
+                                <div class="col-md-4" style="float:left">
+                                    <div class="card mb-2">
+                                        <div class="card mb-2" style="border-bottom: #dddddd solid 1px; align-items: center">
+                                            <img class="card-img-top" style="max-height: 100%; width: 120px; height: 150px" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/729c6a58-25c8-4fcd-b9e1-cf8623021b88/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200827T152842Z&X-Amz-Expires=86400&X-Amz-Signature=8fa7631d97c0236ee8b7ea565c2c7ab75187c693c3a6197e9736ff95e341e758&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body" style="padding: 8px 12px">
+                                            <h5 class="card-title" style="margin: 0 !important;">Java</h5>
+                                            <p class="card-text" style="height: 35px">
+                                                <a href="https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                                    <img class="about-us-btn" src="images/about-us.svg">
+                                                    See more
+                                                </a>
+                                            </p>
+                                        </div>
                                     </div>
-                                    <div class="margin-b-20">
-                                        사람마다 지식을 습득하는 시간이 다릅니다. 성적이 높아도, 성적이 낮아도 우리는 함께하는 동료입니다. 
+                                </div>
+
+                                <div class="col-md-4" style="float:left">
+                                    <div class="card mb-2">
+                                        <div class="card mb-2" style="border-bottom: #dddddd solid 1px; align-items: center">
+                                            <img class="card-img-top" style="max-height: 100%; width: 120px; height: 150px" src="http://image.aladin.co.kr/product/22869/46/letslook/K562636848_f.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body" style="padding: 8px 12px">
+                                            <h5 class="card-title" style="margin: 0 !important;">MicroServices Patterns</h5>
+                                            <p class="card-text" style="height: 35px">
+                                                <a href="https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                                    <img class="about-us-btn" src="images/about-us.svg">
+                                                    See more
+                                                </a>
+                                            </p>
+                                        </div>
                                     </div>
-                                </blockquote>
+                                </div>
+
+                                <div class="col-md-4" style="float:left">
+                                    <div class="card mb-2">
+                                        <div class="card mb-2" style="border-bottom: #dddddd solid 1px; align-items: center">
+                                            <img class="card-img-top" style="max-height: 100%; width: 120px; height: 150px" src="http://image.aladin.co.kr/product/23975/50/letslook/K602639016_f.jpg" alt="Card image cap">
+                                        </div>
+                                        <div class="card-body" style="padding: 8px 12px">
+                                            <h5 class="card-title" style="margin: 0 !important;">Spring Framework</h5>
+                                            <p class="card-text" style="height: 35px">
+                                                <a href="https://www.notion.so/WiSoft-Index-html-Project-29fd589b41e5455bb3a7835b0c786ad6">
+                                                    <img class="about-us-btn" src="images/about-us.svg">
+                                                    See more
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/.Second slide-->
                             </div>
+                            <!--/.Slides-->
+                            <!--Indicators-->
+                            <!--          <div>-->
+                            <!--            <ol class="carousel-indicators">-->
+                            <!--              <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>-->
+                            <!--              <li data-target="#multi-item-example" data-slide-to="1"></li>-->
+                            <!--            </ol>-->
+                            <!--          </div>-->
+                            <!--/.Indicators-->
                         </div>
-                        <!-- End Swiper Wrapper -->
-
-                        <!-- Pagination -->
-                        <div class="swiper-testimonials-pagination"></div>
+                        <!--/.Carousel Wrapper-->
                     </div>
-                    <!-- End Swiper Testimonials -->
                 </div>
             </div>
-            <!--// end row -->
-        </div>
-        <!-- End Testimonials -->
-
-        <!--========== PAGE LAYOUT ==========-->
-        <!-- Service -->
-        <div class="bg-color-sky-light" data-auto-height="true">
-            <div class="content-lg container">
-                <div class="row row-space-1 margin-b-2">
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-chemistry"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>자료구조</h3>
-                                    <p class="margin-b-5">컴퓨터 과학에서 효율적인 접근 및 수정을 가능케 하는 자료의 조직, 관리, 저장</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-screen-tablet"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>운영체제</h3>
-                                    <p class="margin-b-5">시스템 하드웨어 및 응용 소프트웨어를 실행하기 위하여 하드웨어 추상화 플랫폼과 공통 시스템 서비스를 제공하는 시스템 소프트웨어</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>데이터베이스</h3>
-                                    <p class="margin-b-5">여러 사람이 공유하여 사용할 목적으로 체계화해 통합, 관리하는 데이터의 집합</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--// end row -->
-
-                <div class="row row-space-1">
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-notebook"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>프로그래밍</h3>
-                                    <p class="margin-b-5"> 프로그래밍 언어를 이용해 구체적인 컴퓨터 프로그램으로 구현하는 기술</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 sm-margin-b-2">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-speedometer"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>네트워크</h3>
-                                    <p class="margin-b-5">분산되어 있는 컴퓨터를 통신망으로 연결하여, 노드 간 서로에게 데이터를 교환</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>세미나</h3>
-                                    <p class="margin-b-5">교수의 지도 아래 학생들이 모여 연구 발표나 토론 등을 통하여 하는 공동 연구</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </div>
-        <!-- End Service -->
-
-        <!-- Latest Products -->
-        <div class="content-lg container">
-            <div class="row margin-b-40">
-                <div class="col-sm-6">
-                    <h2>Service</h2>
-                    <p>와이소프트연구실에서 운영하고 있는 대표적인 서비스를 소개합니다. <br>자세한 항목은 SERVICE 항목을 참조하세요.</p>
-                </div>
-            </div>
-            <!--// end row -->
-
+    </section>
+    <!--Project-->
+    <section id="project">
+        <img class="layer-project" src="images/layer.png" alt="">
+        <div class="container">
             <div class="row">
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <br>
-                    <h4><a href="https://git.wisoft.io">GitLab</a> <span class="text-uppercase margin-l-20">소프트웨어 버전관리 소프트웨어</span></h4>
-                    <p>GitLab은 소스코드를 효율적으로 관리 및 유지하기 위한 <br>서비스입니다. 소프트웨어 개발자로서 사용해야 하는 필수<br>프로그램 입니다.</p>
-
+                <div class="col-md-7">
+                    <h1 style="font-weight: 700">Project</h1>
+                    <p>연구실에서 진행 중인 프로젝트 입니다. <br>WiSoft에서는 다양한 연구 주제와 프로젝트 참여를 통해 본인의 실력을 한 단계 높일 수 있습니다.</p>
+                    <ul>
+                        <li>NRF(National Research Foundation of Korea)</li>
+                        <li>MkTop</li>
+                    </ul>
                 </div>
-                <!-- End Latest Products -->
-
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="https://products.office.com/ko-kr/microsoft-teams/group-chat-software">Microsoft Temas</a> <span class="text-uppercase margin-l-20">커뮤니케이션 도구</span></h4>
-                    <p>Microsoft Teams는 팀이 업무에 집중하고 능률을 높이는 데 필요한 모든 사람, 콘텐츠, 도구가 통합된 Office 365의 팀 공동 작업용 허브입니다.</p>
+                <div class="col-md-4 offset-md-1">
+                    <img class="project" src="images/project.svg">
                 </div>
-                <!-- End Latest Products -->
-
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="https://www.google.com/drive/">Google Service</a> <span class="text-uppercase margin-l-20">데이터 저장 및 학습자료 공유</span></h4>
-                    <p>한밭대학교 학생이라면 구글에서 제공하는 클라우드 기반 협업도구이자 파일저장/공유 서비스를 무제한으로 사용할 수 있습니다. </p>
-                </div>
-                <!-- End Latest Products -->
-            </div>
-            <!--// end row -->
-        </div>
-        <!-- End Latest Products -->
-
-        <!-- Clients -->
-        <div class="bg-color-sky-light">
-            <div class="content-lg container">
-                <!-- Swiper Clients -->
-                <div class="swiper-slider swiper-clients">
-                    <!-- Swiper Wrapper -->
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
-                        </div>
-                    </div>
-                    <!-- End Swiper Wrapper -->
-                </div>
-                <!-- End Swiper Clients -->
             </div>
         </div>
-        <!-- End Clients -->
+    </section>
+    <!--Contact-->
+    <section id="contact">
+        <div class="contact-map">
+            <div id="map" style="width:100%;height:400px"></div>
+        </div>
+    </section>
+    <script>
+        var mapContainer = document.getElementById('map'), // 지도를 표시할 div
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer">
-            <!-- Links -->
-
-            <!-- End Links -->
-
-            <!-- Copyright -->
-            <div class="content container">
+            mapCenter = new kakao.maps.LatLng(36.352005, 127.301491), // 지도의 중심좌표
+            mapOption = {
+                center: mapCenter, // 지도의 중심좌표
+                level: 4 // 지도의 확대 레벨
+            };
+        var map = new kakao.maps.Map(mapContainer, mapOption);
+        var content = '<div class="overlay_info">';
+        content += '    <a href="https://place.map.kakao.com/11213717" target="_blank"><strong>HBNU WiSoft Lab.</strong></a>';
+        content += '    <div class="desc">';
+        content += '        <span class="address">34158) 대전광역시 유성구 <br> 동서대로 125(덕명동) N5-503</span>';
+        content += '    </div>';
+        content += '</div>';
+        var position = new kakao.maps.LatLng(36.351810, 127.301476);
+        var mapCustomOverlay = new kakao.maps.CustomOverlay({
+            position: position,
+            content: content,
+            xAnchor: 0.5, // 커스텀 오버레이의 x축 위치입니다. 1에 가까울수록 왼쪽에 위치합니다. 기본값은 0.5 입니다
+            yAnchor: 1.1 // 커스텀 오버레이의 y축 위치입니다. 1에 가까울수록 위쪽에 위치합니다. 기본값은 0.5 입니다
+        });
+        mapCustomOverlay.setMap(map);
+    </script>
+    <!--Footer-->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 style="font-weight: 600">Wireless Communication Software Laboratory</h3>
+                    <p>한밭대학교 무선통신소프트웨어 연구실</p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-3">
+                    <b>Services</b>
+                    <div>
+                        <a style="margin-top: 5px; font-size: 24px" href="https://git.wisoft.io/" class="fab fa-gitlab">&nbsp;&nbsp;</a>
+                        <a style="font-size: 24px" href="https://nexus.wisoft.io/"><img style="width: 24px;vertical-align: text-top" src="images/nexus.svg">&nbsp;&nbsp;</a>
+                        <a style="font-size: 24px" href="https://ci.wisoft.io/" class="fab fa-jenkins">&nbsp;&nbsp;</a>
+                        <a style="font-size: 24px" href="https://docker.wisoft.io/" class="fab fa-docker"></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <b>Communication</b>
+                    <br style="margin-bottom: 20px">&nbsp;
+                    <a style="margin-top: 5px; font-size: 24px" href="https://fb.com/wisoftlabs" class="fab fa-facebook">&nbsp;&nbsp;</a>
+                    <a style="font-size: 24px" href="https://twitter.com/wisoftlabs" class="fab fa-twitter">&nbsp;&nbsp;</a>
+                    <a style="font-size: 24px" href="https://instagram.com/wisoftlabs" class="fab fa-instagram">&nbsp;&nbsp;</a>
+                </div>
+                <div class="col-md-3">
+                    <ul class="fa-ul">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-phone-square"></i></span>+82 042-821-1220
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-envelope"></i></span>contact@wisoft.io
+                        </li>
+                    </ul>
+                </div>
                 <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
-                    </div>
-                    <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="color-base fweight-700" href="">seongwon</a> Wireless Software Laboratory <a class="color-base fweight-700" href="https://wisoft.io/">wisoft.Lab</a></p>
+                    <div class="footer-button">
+                        <hr>
+                        <button class="btn btn-outline-light pull-right" type="button">회원가입
+                        </button>
+                        <button class="btn btn-outline-light btn-space pull-right" type="button">로그인
+                        </button>
                     </div>
                 </div>
-                <!--// end row -->
             </div>
-            <!-- End Copyright -->
-        </footer>
-        <!--========== END FOOTER ==========-->
+        </div>
+    </section>
 
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+    <div class="bottom">
+        © 2020 Hanbat National University WiSoft, Lab.
+    </div>
+</body>
 
-        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-        <!-- CORE PLUGINS -->
-        <script src="vendor/jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL PLUGINS -->
-        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
-        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
-        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
-        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
-        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-
-        <!-- PAGE LEVEL SCRIPTS -->
-        <script src="js/layout.min.js" type="text/javascript"></script>
-        <script src="js/components/wow.min.js" type="text/javascript"></script>
-        <script src="js/components/swiper.min.js" type="text/javascript"></script>
-        <script src="js/components/masonry.min.js" type="text/javascript"></script>
-
-    </body>
-    <!-- END BODY -->
 </html>
