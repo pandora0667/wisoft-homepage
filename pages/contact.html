@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko-KR" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159351873-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-159351873-1');
+        </script>
+
+        <meta charset="utf-8"/>
+        <title>WISOFT - 무선통신소프트웨어연구실</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="wisoft"/>
+        <meta name="description" content="한밭대학교 무선통신소프트웨어 연구실 WIsoft-Lab" class="meta-desc">
+        <meta name="keywords" content="한밭대학교, wisoft, Wisoft, 연구실, 소프트웨어, 임베디드, JAVA, 자료구조, 네트워크, softwate, 소프트웨어, 와이소프트, 무선통신">
+
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body>
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="index.html">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/logo.png" alt="Asentus Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="navbar-nav navbar-nav-right">
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="about.html">About</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="service.html">Service</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== PARALLAX ==========-->
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="parallax-content container">
+                <h1 class="carousel-title">Contact</h1>
+                <p><b>연구실에 더 알고 싶으신가요? 우리들은 여러분들을 맞이할 준비가 되어있습니다!!</b</p>
+            </div>
+        </div>
+        <!--========== PARALLAX ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- Contact List -->
+        <div class="section-seperator">
+            <div class="content-lg container">
+                <div class="row">
+
+                    <!-- Contact List -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <h3><a href="#">한밭대학교</a> <span class="text-uppercase margin-l-20">N5-503호 무선통신소프트웨어연구실 </span></h3>
+                            <p> 우리는 끊임없이 노력하는 학생을 존중합니다.</p>
+                            <ul class="list-unstyled contact-list">
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> +82 042-821-1595</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i> phj@hanbat.ac.kr</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Contact List -->
+
+        <!-- kakao Map -->
+        <div id="map" style="width:1000;height:400px;"></div>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6f8c8a151ecdeceb9b3d42c84400d41b"></script>
+        
+        <script>
+            let mapContainer = document.getElementById('map'),
+                mapOption = { 
+                    center: new kakao.maps.LatLng(36.352015, 127.301532), // 지도의 중심좌표
+                    level: 3 // 지도의 확대 레벨
+            };
+
+		    let map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+            let markerPosition  = new kakao.maps.LatLng(36.351028, 127.301222); 
+            let marker = new kakao.maps.Marker({
+                position: markerPosition
+            });
+            
+            marker.setMap(map);
+	</script>
+
+        <!-- Promo Section -->
+        <div class="promo-section overflow-h">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="ver-center">
+                        <div class="ver-center-aligned">
+                            <div class="promo-section-col">
+                                <h2>Join to Wisoft Lab</h2>
+                                <p>연구실 임원이 되기 위한 생각을 하고 있다면, 본인은 한발자국 나아가기 위한 도전을 <br>시도하는 것입니다.</p>
+                                <p>많은 것을 바라지 않습니다. 연구실을 믿고 꾸준히 따라올 분, 세미나의 적극적으로 참가할 수 있는 분, 새로운 것을 배우고 도전하기 위해 노력하는 분, 자신의 꿈을 찾기 위해서 노력하는 분이라면 언제나 함께할 수 있습니다. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="promo-section-img-right">
+                <img class="img-responsive" src="img/970x970/join.jpg" alt="Content Image">
+            </div>
+        </div>
+        <!-- End Promo Section -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <p class="margin-b-0"><a class="color-base fweight-700" href="">seongwon</a> Wireless Software Laboratory <a class="color-base fweight-700" href="https://wisoft.io/">wisoft.Lab</a></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/gmap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6f8c8a151ecdeceb9b3d42c84400d41b"></script>
+
+    </body>
+    <!-- END BODY -->
+</html>
